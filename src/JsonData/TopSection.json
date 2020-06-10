@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "Playing around trying to understand the CSS GRID feature... toady",
+        "body": "CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns and rows.",
+        "image1": "https://www.q2designer.com/grid/img/dior.jpg",
+        "image2": "https://www.q2designer.com/grid/img/dior.jpg",
+        "image3": "https://www.q2designer.com/grid/img/dior.jpg",
+        "image4": "https://www.q2designer.com/grid/img/dior.jpg",
+        "ctaReadMore": "Read more",
+        "ctaWatchPresentation": "Watch Presentation"
+    }
+]

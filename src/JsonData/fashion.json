@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Dior",
+    "body": "Accessories from the world of the brand",
+    "image": "https://www.q2designer.com/grid/img/dior.jpg",
+    "cta": "Shope Now"
+  },
+  {
+    "id": 2,
+    "title": "vella",
+    "body": "Children's knitted toy teddy bear",
+    "image": "https://www.q2designer.com/grid/img/vella.jpg",
+    "cta": "Shope Now"
+  },
+  {
+    "id": 3,
+    "title": "Andy",
+    "body": "Men's glove exclusive class",
+    "image": "https://www.q2designer.com/grid/img/andy.jpg",
+    "cta": "Shope Now"
+  },
+  {
+    "id": 4,
+    "title": "O' Mark",
+    "body": "Stylish men's jacket for the street",
+    "image": "https://www.q2designer.com/grid/img/omark.jpg",
+    "cta": "Shope Now"
+  }
+]

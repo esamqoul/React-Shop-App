@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d8945637.chunk.css",
+    "main.js": "./static/js/main.55aef61b.chunk.js",
+    "main.js.map": "./static/js/main.55aef61b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d6a7b5d6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d6a7b5d6.js.map",
+    "static/js/2.01f06432.chunk.js": "./static/js/2.01f06432.chunk.js",
+    "static/js/2.01f06432.chunk.js.map": "./static/js/2.01f06432.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0dd4a22890414337ef81657fa5ba6024.js": "./precache-manifest.0dd4a22890414337ef81657fa5ba6024.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.d8945637.chunk.css.map": "./static/css/main.d8945637.chunk.css.map",
+    "static/js/2.01f06432.chunk.js.LICENSE.txt": "./static/js/2.01f06432.chunk.js.LICENSE.txt",
+    "static/media/baby-suit.jpg": "./static/media/baby-suit.83f81bf3.jpg",
+    "static/media/bag.jpg": "./static/media/bag.5b1b31fb.jpg",
+    "static/media/g.jpg": "./static/media/g.cf328316.jpg",
+    "static/media/image_1.jpg": "./static/media/image_1.f9cb276c.jpg",
+    "static/media/knitted-toys.jpg": "./static/media/knitted-toys.06a43318.jpg",
+    "static/media/shoes.jpg": "./static/media/shoes.0fb466d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6a7b5d6.js",
+    "static/js/2.01f06432.chunk.js",
+    "static/css/main.d8945637.chunk.css",
+    "static/js/main.55aef61b.chunk.js"
+  ]
+}
