@@ -1,30 +1,30 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Wrapper = styled.div` 
+export const Wrapper = styled.div`
   width: 100%;
   margin: 30px auto;
   box-sizing: border-box;
-`
+`;
 
-export const Heroafshion = styled.div`    
+export const Heroafshion = styled.div`
   margin-bottom: 30px;
   background-color: white;
   display: grid;
-    align-items: center;
-    grid-template-areas: "text fashion";
-    &img {
-      width: 100 %;
-    }
-    @media (max-width: 414px) {
-    grid-template-areas:
-        "fashion"
-        "text";
+  align-items: center;
+  grid-template-areas: "text fashion";
+  &img {
+    width: 100 %;
   }
-`
+  @media (max-width: 414px) {
+    grid-template-areas:
+      "fashion"
+      "text";
+  }
+`;
 export const HeroafshionText = styled.div`
   color: #464646;
   padding: 30px;
-`
+`;
 export const CTA = styled.button`
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
   box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -51,14 +51,54 @@ export const CTA = styled.button`
     background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f6f6f6), to(#ffffff));
     background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
     background-color: #f6f6f6;}
-`
-
+`;
+export const GreenCta = styled.button`
+  margin-bottom: 0.6em;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 5px 32px;
+  text-decoration: none;
+  height: auto;
+  text-align: center;
+  background-color: #99cc33;
+  :hover {
+    background-color: #b7ff26;
+    color: black;
+  }
+  :active {
+    position: relative;
+    top: 1px;
+  }
+`;
+export const PerpilCta = styled.button`
+  background-color: #cc33cc;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 11px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #cc33cc;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  :hover {
+    background-color: #fa40fa;
+    color: black;
+  }
+  :active {
+    top: 1px;
+    position: relative;
+  }
+`;
 export const FashionUl = styled.ul`
   display: -ms-grid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-`
+`;
 
 export const Fashionbg = styled.li`
   grid-row: 1 /-1;
@@ -69,10 +109,10 @@ export const Fashionbg = styled.li`
   &img {
     width: 100%;
   }
-`
+`;
 export const Img = styled.img`
   width: 100%;
-`
+`;
 export const Fashionimg1 = styled.li`
   grid-row: 1 / span 2;
   grid-column: 1;
@@ -80,17 +120,16 @@ export const Fashionimg1 = styled.li`
   align-self: end;
   padding-bottom: 20px;
   list-style: none;
-`
+`;
 
 export const Fashionimg2 = styled.li`
-
-grid-row: 1 / span 2;
-grid-column: 2;
-z-index: 1;
-align-self: end;
-padding-bottom: 20px;
-list-style: none;
-`
+  grid-row: 1 / span 2;
+  grid-column: 2;
+  z-index: 1;
+  align-self: end;
+  padding-bottom: 20px;
+  list-style: none;
+`;
 
 export const Fashionimg3 = styled.li`
   grid-row: 1 / span 2;
@@ -99,33 +138,33 @@ export const Fashionimg3 = styled.li`
   align-self: end;
   padding-bottom: 20px;
   list-style: none;
-`
+`;
 export const ROW = styled.div`
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+  -ms-grid-columns: (minmax(250px, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 30px;
-    
-    @media(max-width: 414px) {
-      grid-template-columns: 1fr;
-      grid-gap: 30px 0;
-    }
-`
+
+  @media (max-width: 414px) {
+    grid-template-columns: 1fr;
+    grid-gap: 30px 0;
+  }
+`;
 export const Box = styled.div`
   border-radius: 3px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
 
-    @media(max-width: 414px) {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-column: span 2;
-      justify-items: center;
-    }
-  `
+  @media (max-width: 414px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: span 2;
+    justify-items: center;
+  }
+`;
 
 export const TallSpan = styled(Box)`
   grid-row: span 2;
@@ -133,86 +172,86 @@ export const TallSpan = styled(Box)`
   grid-gap: 20px;
   display: -ms-grid;
   display: grid;
-  
-    @media(max-width: 414px) {
-      grid-column: span 2;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+
+  @media (max-width: 414px) {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
-  `
+`;
 
 export const TopSpan = styled.div`
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-  `
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+`;
 
 export const WideSpan = styled.div`
-    grid-column: span 2;
-    padding: 20px;
-    grid-gap: 30px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);  
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
+  grid-column: span 2;
+  padding: 20px;
+  grid-gap: 30px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
 
-      @media(max-width: 414px) {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column: span 2;
-  }
-`
-export const WideSpan2 = styled.div`
+  @media (max-width: 414px) {
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
     grid-column: span 2;
-    padding: 20px;
-    grid-gap: 30px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.06);
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.06);
-    display: -ms-grid;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-items: center;
-    grid-gap: 20px;
-    
-      @media(max-width: 414px) {
-        grid-gap: 5px!important;
-        padding: 10px;
-      }
-`
+  }
+`;
+export const WideSpan2 = styled.div`
+  display: grid;
+  grid-column: span 2;
+  padding: 20px;
+  grid-gap: 30px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  display: -ms-grid;
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+
+  @media (max-width: 414px) {
+    grid-gap: 5px !important;
+    padding: 10px;
+  }
+`;
 
 export const Span2 = styled.span`
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-`
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
+`;
 export const Padding = styled.div`
-    padding: 20px
-  `
+  padding: 20px;
+`;
 
 export const Elements = styled.div`
-    border-radius: 3px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: inherit;
-    grid-template-columns: inherit;
-    justify-items: center;
-  `
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: inherit;
+  grid-template-columns: inherit;
+  justify-items: center;
+`;
 export const ElementsImage = styled.img`
     grid-row: 1 /-1;
     grid-column: 1 / -1;
@@ -223,40 +262,40 @@ export const ElementsImage = styled.img`
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-  `
+  `;
 
 export const ElementsSpan = styled.span`
-    display: grid;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    grid-row: 1 / span 2;
-    -ms-grid-column: 1;
-    grid-column: 1;
-    z-index: 1;
-    justify-items: center;
-    display: -ms-grid;
-    padding: 20px 20px 0px 20px;
-  `
+  display: grid;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  z-index: 1;
+  justify-items: center;
+  display: -ms-grid;
+  padding: 20px 20px 0px 20px;
+`;
 export const ElementsH1 = styled.h1`
-    color: white;
-    line-height: 1.2;
-    font-weight: 700;
-`
+  color: white;
+  line-height: 1.2;
+  font-weight: 700;
+`;
 export const ElementsH3 = styled.h3`
-    color: white;
-    line-height: 1.2;
-`
+  color: white;
+  line-height: 1.2;
+`;
 
 export const ImageData = styled.img`
-    object-fit: cover;
-    width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    grid-row: 1 /-1;
-    grid-column: 1 / -1;
-    z-index: 0;
-`
+  object-fit: cover;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  grid-row: 1 /-1;
+  grid-column: 1 / -1;
+  z-index: 0;
+`;
 
 export const Navigation = styled.header`
   border-bottom: 10px solid #6e6f82;
@@ -278,7 +317,6 @@ export const Navigation = styled.header`
     text-align: inherit;
 
     p {
-      
       display: block;
     }
     em {
@@ -403,4 +441,4 @@ export const Navigation = styled.header`
       }
     }
   }
-`
+`;

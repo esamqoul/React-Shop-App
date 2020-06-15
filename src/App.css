@@ -2,114 +2,34 @@
   text-align: center;
 }
 .App-header {
-	color: white;
-  	background-color: #282c34;
-  	min-height: 100vh;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
-.cta {
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
-	border:1px solid #dcdcdc;
-	cursor:pointer;
-	color:#666666;
-	font-size:11px;
-	padding:6px 24px;
-	text-decoration:none;
-	height: 30px;
-	margin-bottom: 0.6em;
-	line-height: 15px;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-      }
-.cta:hover {
-    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-    background-color:#f6f6f6;
-    }
-.cta:active {
-    position:relative;
-    top:1px;
-	}
-.cta__green {
-	margin-bottom: 0.6em;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:11px;
-	padding:5px 32px;
-	text-decoration:none;
-	height: auto;
-	text-align: center;
-	background-color:#99cc33;
-	}
-.cta__green:hover {
-	background-color:#b7ff26;
-	}
-.cta__green:active {
-	position:relative;
-	top:1px;
-	}
-.cta__perpel {
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:11px;
-	padding:5px 32px;
-	text-decoration:none;
-	height: auto;
-	text-align: center;
-	background-color:#cc9933;
-	}
-.cta__perpel:hover {
-	background-color:#e6a120;
-	}
-.cta__perpel:active {
-	position:relative;
-	top:1px;
-	}
-.cta__perpil {
-	background-color:#cc33cc;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:11px;
-	padding:5px 20px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #cc33cc;
-	height: auto;
-	text-align: center;
-	display:inline-block;
-	}
-.cta__perpil:hover {
-	background-color:#fa40fa;
-	}
-.cta__perpil:active {
-	top:1px;
-	position:relative;
-	}
-.imagedata{
-    object-fit: cover;
-    width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    grid-row: 1 /-1;
-    grid-column: 1 / -1;
-    z-index: 0;
+.imagedata {
+  object-fit: cover;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  grid-row: 1 /-1;
+  grid-column: 1 / -1;
+  z-index: 0;
 }
 .boxData {
-	display: contents;			
+  display: contents;
 }
 
-@media (max-width: 414px){
-.boxData {
+@media (max-width: 414px) {
+  .boxData {
     display: grid;
-   	grid-gap: 20px;
-	}
+    grid-gap: 20px;
+  }
 }
 
 button {
